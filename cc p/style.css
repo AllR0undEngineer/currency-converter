@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 10vh;
+    width:100%;
+    background-color: #f8cc5d;
+    color: #fff;
+}
+nav h1{
+    font-family:pacifio,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6vh;
+    margin-left: 0;
+}
+.links{
+    font-size: 5vh;
+    display: flex;
+    gap: 3vh;
+    margin-right: 2vh;
+}
+.linkedn :hover{
+   color: #0077b5 ;
+}
+.insta:hover{
+    color: #f56c90
+}
+.body-con{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4e4ba;
+    min-height: 82vh;
+}
+
+.container{
+    background-color: rgb(252, 252, 252);
+    height: 45vh;
+    width:50vh;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+   
+form input,button,.dropdown{
+      width: 100%;
+      border:none;
+      outline: 0;
+      border-radius: 0.5rem;
+}
+
+ form input{
+    font-size: 1.2rem;
+    border:1px solid lightgrey;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem;
+    margin-left:0 ;
+}
+.select-con{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  padding:0.3rem;
+  border:1px solid lightgray;
+  border-radius:0.3rem ;
+}
+.dropdown img{
+    width:1.5rem;
+}
+button{
+    background-color: blueviolet;
+    color:#fff;
+    padding:0.75rem;
+    font-size: 1rem;
+    border: 1px soid lightgray;
+}
+.dropdown select{
+    width:auto;
+    border: none;
+}
+.dropdown i{
+    padding:0.5rem;
+   font-size: 1.2rem;
+}
+
+h2{
+    margin-bottom:1rem;
+}
+.msg{
+    margin:2rem;
+}
+
+footer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 8vh;
+    width:100%;
+    background-color: #996e00;
+    color: #fff;
+    font-size: 2vh;
+}
+.copy:hover{
+    text-decoration: underline;
+    color:#004f;
+}
